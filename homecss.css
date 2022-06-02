@@ -1,0 +1,233 @@
+body{
+    height: 95vh;
+    width: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.head{
+    position: absolute;
+    height: 20%;
+    background: transparent;
+    width: 20.5%;
+    left: 120px;
+    position: absolute;
+    height: 15%;
+background: transparent;
+width: 71%;
+left: 150px;
+}
+header{
+    width:60%;
+    height:70%;
+}
+#h21{
+    position: absolute;
+    align-items:center;
+    top: 0;
+    float: left;
+}
+
+.kindle{
+    position: absolute;
+    left: 20rem;
+    bottom: 1.5rem;
+    width: 500px;
+    column-gap: 0;
+    column-count: 1;
+    grid-gap: 0px;
+    grid-row-gap: 0px;
+
+  }
+  .icons{
+      left: 2rem;
+      
+      position: relative;
+  }
+.fstop{
+    color: orange;
+}
+.tstop{
+    color: orange;
+    height: 100%;
+    width: 100%;
+}
+.search-form{
+   position: absolute;
+   left: 60rem;
+   top: 1rem;
+}
+.release{
+ 
+    position: absolute;
+    left: 71rem;
+    top: 0.2rem;
+ }
+.feature{
+    position: absolute;
+    left: 78rem;
+    top: 0.2rem; 
+}
+.dots{
+    position: absolute;
+    left: 82rem;
+    top: 1rem;
+    column-gap: 0;
+    
+}
+.dt{
+    position: absolute;
+    left: 84rem;
+    top: 1rem;
+    column-gap: 0; 
+}
+.wrapper,.wrapper .img-area,.buttons button{
+    background-image: linear-gradient(to left, #D7CEC1, #E4E2E0);
+
+
+}
+.wrapper{
+    left: -10px;
+    top: 4rem;
+    position: relative;
+    width: 180px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper .img-area{
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-area .inner-area{
+    height: calc(100%-25px);
+    width: calc(100%-25px);
+    border-radius: 50%;
+}
+.inner-area .img{
+    height: 50%;
+    width: 50%;
+    border-radius: 20%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.wrapper .name{
+    font-size: 15px;
+    font-weight: bold;
+    color: grey;
+    margin: 10px 0 5px 0;
+    bottom: 30rem;
+}
+
+.wrapper .about{
+    color: grey;
+    font-weight: 500;
+    font-size: 16px;
+}
+.profile{
+    position: relative;
+    bottom: -10rem;
+    left: 0.5rem;
+    width: 25%;
+    height: 10%;
+}
+
+#prods{
+    width: 80px;
+    height: 80px;
+}
+#prods img{
+    width: 80px;
+    height: 80px;
+}
+.newRelease{
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    top: -10.5rem;
+    left: 13rem;
+    margin-left: 2px;
+    width: 100%;
+    height: 25rem;
+}
+.newRelease img{
+    width:"183px";
+    height:"285px";
+    border-radius: 80px;
+}
+.newRelease h2{
+    position: relative;
+    height: 10%;
+    width: 30%;
+    bottom: 2.3rem;
+    right: -2rem;
+}
+#td1{
+    background-color: transparent;
+   position: relative;
+   left: 1.5rem;
+   width: 85%;
+   height: 30%;
+}
+ .container h2{
+    position: absolute;
+    /* text-align: center; */
+    height: 10%;
+    width: 30%;
+    top: 1.5rem;
+    left: 2.5rem;
+}
+#td1 p{
+    background-color: grey;
+    border-radius: 45px;
+    text-align: center;
+    height: 30%;
+    width: 50%;
+   bottom: 10rem;
+}
+
+.famousAuthor{
+    position: absolute;
+    background-image: linear-gradient(to left, #D7CEC1, #E4E2E0);
+    display: flex;
+    bottom: 3rem;
+   right: 18.5rem;
+   width: 14.9%;
+    height:28rem;
+    text-align: center;
+    border-radius: 7%;
+}
+
+#famAuthor img{
+    border-radius: 80px;
+    width: 50px;
+    height: 20%;
+
+}
+
+
+#famAuthor p{
+    margin-left: 3px;
+}
+.hAuthor{
+    position: absolute;
+    top:-0.5rem;
+    right: 2rem;
+    width: 15rem;
+    background-color:transparent ;
+    height: 2rem;
+}
+.hAuthor h2{
+    margin-right: 20%;
+    text-align: center;
+    
+}

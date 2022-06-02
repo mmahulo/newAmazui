@@ -1,0 +1,45 @@
+        <div class="newRelease">   
+            <h2>New Release</h2>
+            
+            <table cellpadding="20" cellspacing="20">
+                <tr>
+                    <td id="td1">
+                        <img src="/image/stand/pic8.jpg" width="104" height="156" alt="">
+                        <h3>The Glass Hotel</h3>
+                        <h5>Emily St.John</H5>
+                        <p>Mystery</p>
+                    </td>
+                    <td id="td1">
+                        <img src="/image/stand/pic2.jpg" width="104" height="156" alt="">
+                        <h3>The Glass Hotel</h3>
+                        <H5>Emily St.John</H5>
+                        <p>Fiction</p>
+                    </td>
+                    <td id="td1">
+                        <img src="/image/stand/pic3.jpg" width="104" height="156" alt="">
+                        <h3>The Glass Hotel</h3>
+                        <h5>Emily St.John</H5>
+                        <p>Thriller</p>
+                    </td>
+                    <td id="td1">
+                        <img src="/image/stand/pic4.jpg" width="104" height="156" alt="">
+                        <h3>The Glass Hotel</h3>
+                        <h5>Emily St.John</H5>
+                        <p>Mystery</p>
+                    </td>
+                    <td id="td1">
+                        <img src="/image/stand/pic5.jpg" width="104" height="156" alt="">
+                        <h3>The Glass Hotel</h3>
+                        <h5>Emily St.John</H5>
+                        <p>Mystery</p>
+                    </td>
+                    <div id="modal01" class="modal" onclick="this.style.display='none'">
+                        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <div class="modal-content">
+                          <img id="img01" style="max-width:100%">
+                          <div id="caption"></div>
+                        </div>
+                </tr>
+            </table>
+        
+    </div>

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=10.0">
+    <meta charset="utf-8">
+    <title>kindle</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<link rel="shortcut icon" href="/assests/favion.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="homecss.css">
+ <link rel="stylesheet" href="login&up.html"> 
+  <!-------------------------------------------------------------------     ------  -->
+  <link rel="stylesheet" href="scroll.css">
+  <link rel="stylesheet" href="modal.css">
+  <link rel="stylesheet" href="test.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="kindle">
+                <h1>Kindle<span class="fstop">.</span></h1>
+            </div>
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+                
+                    <div class="release">
+                        <p>New release</p>
+                    </div>
+                        <div class="feature">
+                            <p>Featured</p>
+                        </div>
+                        <div class="dots">
+                            <img src="/image/stand/grid-fill.svg" width="30px" height="20px" alt="">
+                        </div>
+                        <div class="dt">
+                        <a href="ind.html"><i class="fa fa-shopping-cart"></i><p id="count"> 0</p></a>
+                    </div>
+        </div>
+        <div class="wrapper">
+            <div class="img-area">
+                <div class="inner-area">
+                    <img src="/image/stand/riha.jpg" width="50px" height="50px" alt="">
+                </div>
+            </div>
+            <div class="about">Welcome <br>back</div>
+            <div class="name">Sarah</div>
+        </div>
+         <div class="profile">
+           
+            <div class="icons">
+                
+                <li><img src="/image/stand/k.png" width="30px" height="20px" alt="">  My Kindle Board</li>
+                </div>
+        <div class="table">
+            <table cellpadding=" 20" cellspacing="20">
+                <tr>
+                    <td>
+                        <i class="fa fa-cube">  Collection</i>
+                       
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa far fa-bookmark">  Saved</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                        <a href="/logReg.html">
+                        <i class="fa fa-user">  Profile</i>
+                        </a>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa fa-user">  Logout</i>
+                        
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+        <div id="prods">
+            <h4>product of</h4>
+    
+            <img src="/image/stand/amazon.png"  alt="">
+           </div>
+        </div>
+        </div>
+      
+        
+    </header>
+    <main>
+       
+        <div class="container">
+            <h2>Books You Have Read Last</h2>
+            <div class="horizontal-scroll">
+                <button class="btn-scroll" id="btn-scroll-left" onclick="scrollHorizontally(1)"><i class="fas fa-chevron-left"></i></button>
+                <button class="btn-scroll" id="btn-scroll-right"  onclick="scrollHorizontally(-1)"><i class="fas fa-chevron-right"></i></button>
+                <div class="storys-container">
+                    <div class="story-circle">
+                        <div class="colorb1">
+                            <div class="wordsb1">
+                               <font size="-1" ><h4>
+                                    Dolly Parton & James Patterson
+                                </h4>
+                                <p>101 pages.chapter12.Last read</p>
+                                </font>
+                                <div class="bookimg1"><img id="image" src="./image/stand/image1.jpg" alt="Snow"></div> 
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="story-circle1">
+                        <div class="colorb2">
+                            <div class="wordsb2">
+                               <font size="-1" ><h4>
+                                    The power of subconscious mind
+                                </h4>
+                                <p>87 pages.chapter5.Last read</p>
+                                </font>
+                                <div class="bookimg2"><img src="./image/stand/image2.jpg"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-circle2">
+                        <div class="colorb3">
+                            <div class="wordsb3">
+                               <font size="-1" ><h4>
+                                    Quick Silver
+                                </h4>
+                                <p>63 pages.chapter2.Last read</p>
+                                </font>
+
+                              <div class="bookimg3"><img src="./image/stand/image3.jpg"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-circle3">
+                        <div class="colorb4">
+                            <div class="wordsb4">
+                               <font size="-1" ><h4>
+                                    Robyn Carr
+                                </h4>
+                                <p>10 pages.chapter1.Last read</p>
+                                </font>
+                                <div class="bookimg4"><img src="./image/stand/image4.jpg"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-circle4">
+                        <div class="colorb5">
+                            <div class="wordsb5">
+                               <font size="-1" ><h4>
+                                    At the quiet edge
+                                </h4>
+                                <p>16 pages.chapter3.Last read</p>
+                                </font>
+                                <div class="bookimg5"><img src="./image/stand/image5.jpg"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-circle5">
+                        <div class="colorb6">
+                            <div class="wordsb6">
+                               <font size="-1" ><h4>
+                                    Mozart in the jungle
+                                </h4>
+                                <p>69 pages.chapter2.Last read</p>
+                                </font>
+                                <div class="bookimg6"><img src="./image/stand/image6.jpg"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-circle6">
+                        <div class="colorb7">
+                            <div class="wordsb7">
+                               <font size="-1" ><h4>
+                                    The underground railroad
+                                </h4>
+                                <p>41 pages.chapter3.Last read</p>
+                                </font>
+                                <div class="bookimg7"><img src="./image/stand/image7.jpg"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-circle7">
+                        <div class="colorb8">
+                            <div class="wordsb8">
+                               <font size="-1" ><h4>
+                                    Book of love
+                                </h4>
+                                <p>22 pages.chapter8.Last read</p>
+                                </font>
+                                <div class="bookimg8"><img src="./image/stand/image8.jpg"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-circle8">
+                        <div class="colorb9">
+                            <div class="wordsb9">
+                               <font size="-1" ><h4>
+                                    The pursuit of love
+                                </h4>
+                                <p>84 pages.chapter9.Last read</p>
+                                </font>
+                                <div class="bookimg9"><img src="./image/stand/image9.jpg"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-circle9">
+                        <div class="colorb10">
+                            <div class="wordsb10">
+                               <font size="-1" ><h4>
+                                    Time
+                                </h4>
+                                <p>72 pages.chapter7.Last read</p>
+                                </font>
+                                <div class="bookimg10"><img src="./image/stand/image10.jpg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contains">
+                <h2>New Release</h2>
+            <div class="product">
+                
+                <div class="product-card">
+                  <h2 class="name">The Glass Hotel</h2>
+                  <span class="price">R120.00</span>
+                  <a class="popup-btn">Quick View</a>
+                  <img src="image/stand/pic2.jpg" class="product-img"  width="104" height="156" alt="">
+                </div>
+                <div class="popup-view">
+                  <div class="popup-card">
+                    <a><i class="fas fa-times close-btn"></i></a>
+                    <div class="product-img">
+                      <img src="image/stand/pic2.jpg" alt="">
+                    </div>
+                    <div class="info">
+                      <h2>The Glass Hotel<br><span>Emily St.John</span></h2>
+                      <p>The Glass Hotel is a 2020 novel by Canadian writer Emily St. John Mandel. It is Mandel's fifth novel, and the first since winning the Arthur C. Clarke Award in 2015. It follows the aftermath of a disturbing graffiti incident at a hotel on Vancouver Island and the collapse of an international Ponzi scheme.</p>
+                      <span class="price">R120.00</span>
+                      <a href="/ind.html" class="add-cart-btn">Add to Cart</a>
+                      <button class="Whilist p-add">Whilist</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product">
+                <div class="product-card">
+                  <h2 class="name">The Glass Hotel</h2>
+                  <span class="price">R120.00</span>
+                  <a class="popup-btn">Quick View</a>
+                  <img src="image/stand/pic3.jpg" class="product-img"  width="104" height="156" alt="">
+                </div>
+                <div class="popup-view">
+                  <div class="popup-card">
+                    <a><i class="fas fa-times close-btn"></i></a>
+                    <div class="product-img">
+                      <img src="image/stand/pic3.jpg" alt="">
+                    </div>
+                    <div class="info">
+                      <h2>The Glass Hotel<br><span>Emily St.John</span></h2>
+                      <p>The Glass Hotel is a 2020 novel by Canadian writer Emily St. John Mandel. It is Mandel's fifth novel, and the first since winning the Arthur C. Clarke Award in 2015. It follows the aftermath of a disturbing graffiti incident at a hotel on Vancouver Island and the collapse of an international Ponzi scheme.</p>
+                      <span class="price">R120.00</span>
+                      <a href="/ind.html" class="add-cart-btn">Add to Cart</a>
+                      <!-- <a href="#" class="add-wish">Add to Wishlist</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="product">
+                <div class="product-card">
+                  <h2 class="name">The Glass Hotel</h2>
+                  <span class="price">R120.00</span>
+                  <a class="popup-btn">Quick View</a>
+                  <img src="image/stand/pic4.jpg" class="product-img"  width="104" height="156" alt="">
+                </div>
+                <div class="popup-view">
+                  <div class="popup-card">
+                    <a><i class="fas fa-times close-btn"></i></a>
+                    <div class="product-img">
+                      <img src="image/stand/pic4.jpg" alt="">
+                    </div>
+                    <div class="info">
+                      <h2>The Glass Hotel<br><span>Emily St.John</span></h2>
+                      <p>The Glass Hotel is a 2020 novel by Canadian writer Emily St. John Mandel. It is Mandel's fifth novel, and the first since winning the Arthur C. Clarke Award in 2015. It follows the aftermath of a disturbing graffiti incident at a hotel on Vancouver Island and the collapse of an international Ponzi scheme.</p>
+                      <span class="price">R120.00</span>
+                      <a href="/ind.html" class="add-cart-btn">Add to Cart</a>
+                      <!-- <a href="#" class="add-wish">Add to Wishlist</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product">
+                <div class="product-card">
+                  <h2 class="name">The Glass Hotel</h2>
+                  <span class="price">R120.00</span>
+                  <a class="popup-btn">Quick View</a>
+                  <img src="image/stand/pic5.jpg" class="product-img"  width="104" height="156" alt="">
+                </div>
+                <div class="popup-view">
+                  <div class="popup-card">
+                    <a><i class="fas fa-times close-btn"></i></a>
+                    <div class="product-img">
+                      <img src="image/stand/pic5.jpg" alt="">
+                    </div>
+                    <div class="info">
+                      <h2>The Glass Hotel<br><span>Emily St.John</span></h2>
+                      <p>The Glass Hotel is a 2020 novel by Canadian writer Emily St. John Mandel. It is Mandel's fifth novel, and the first since winning the Arthur C. Clarke Award in 2015. It follows the aftermath of a disturbing graffiti incident at a hotel on Vancouver Island and the collapse of an international Ponzi scheme.</p>
+                      <span class="price">R120.00</span>
+                      <a href="/ind.html" class="add-cart-btn">Add to Cart</a>
+                      <!-- <a href="#" class="add-wish">Add to Wishlist</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="product">
+                <div class="product-card">
+                  <h2 class="name">The Glass Hotel</h2>
+                  <span class="price">R120.00</span>
+                  <a class="popup-btn">Quick View</a>
+                  <img src="image/stand/pic6.jpg" class="product-img"  width="104" height="156" alt="">
+                </div>
+                <div class="popup-view">
+                  <div class="popup-card">
+                    <a><i class="fas fa-times close-btn"></i></a>
+                    <div class="product-img">
+                      <img src="image/stand/pic6.jpg" alt="">
+                    </div>
+                    <div class="info">
+                      <h2>The Glass Hotel<br><span>Emily St.John</span></h2>
+                      <p>The Glass Hotel is a 2020 novel by Canadian writer Emily St. John Mandel. It is Mandel's fifth novel, and the first since winning the Arthur C. Clarke Award in 2015. It follows the aftermath of a disturbing graffiti incident at a hotel on Vancouver Island and the collapse of an international Ponzi scheme.</p>
+                      <span class="price">R120.00</span>
+                      <a href="/ind.html" class="add-cart-btn">Add to Cart</a>
+                      <!-- <a href="#" class="add-wish">Add to Wishlist</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        </main>
+          
+        <div class="famousAuthor" >
+           <div class="hAuthor">
+               <h2>Famous Author</h2> 
+            </div>
+            
+            <table id="famAuthor" cellpadding="2" cellspacing="2">
+                
+                <tr>
+                    <td>
+                        <img src="/image/stand/prof1.jpg"  alt="">
+                       
+                    </td>
+                    <td>
+                        <p>J.K. Rowling</p>
+                        <p>10 Books</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="/image/stand/prof2.jpg" alt="">
+                       
+                    </td>
+                    <td>
+                        <p>Stephen king</p>
+                        <p>61 Novels</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="/image/stand/prof3.jpg"alt="">
+
+                        
+                    </td>
+                    <td><p>daniel Steel</p>
+                        <p>179 Books</p>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+    </main>
+<script src="scroll.js"></script>
+<script src="modal.js"></script>
+
+            
+    </body>
+  </html>

@@ -1,0 +1,4 @@
+The sketch shows the graph of a function f,which is a straight line deifined by y= mx+k such that the point 
+V lies on the and the graph of a function g, which is a parabola with vertex R.
+the straight line and parabola intersect at P and Q.The points S and T lie on the parabola and stright line
+respectively,between P and Q.The line ST is parallel to the y-axis
